@@ -27,9 +27,9 @@ vault = { group = "com.github.MilkBowl", name = "VaultAPI", version.ref = "vault
 
 [versions]
 paperweight = "2.0.0-beta.17" # https://github.com/PaperMC/paperweight
-paper = "1.21.5-R0.1-SNAPSHOT" # https://github.com/PaperMC/Paper
+paper = "1.21.4-R0.1-SNAPSHOT" # https://github.com/PaperMC/Paper
 run-paper = "2.3.1" # https://github.com/jpenilla/run-task
-minecraft = "1.21.5"
+minecraft = "1.21.4"
 
 ## GradleUp
 shadow = "9.0.0-beta13" # https://github.com/GradleUp/shadow
