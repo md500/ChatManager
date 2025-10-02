@@ -23,4 +23,9 @@ jobs:
         run: chmod +x ./gradlew
       - name: Build
         run: ./gradlew build --stacktrace
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: snapshot-build
+          path: build/libs/*.jar
       
